@@ -27,10 +27,8 @@ body {
 }
 
 .header-logo {
-  background-color: darkslategray;
-  background-size: 20%;
-  font-size: 80%;
-  color: #b67b2fea;
+  width: 10px;
+  height: auto;
 }
 
 .nav-bar {
@@ -60,7 +58,7 @@ body {
 /*--- Footer Start  ---*/
 
 footer {
-  background-color: darkslategrey;
+  background-color: rgb(30, 49, 58);
   margin-top: 100vh;
   display: flex;
   justify-content: space-between;
