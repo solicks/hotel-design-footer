@@ -62,11 +62,13 @@ footer {
   margin-top: 100vh;
   display: flex;
   justify-content: space-between;
+  padding: 75px, 10px, 60px;
 }
 
 .address {
   color: #fff;
   font-size: 12pt;
+  margin-right: 30px;
 }
 
 .location {
@@ -75,13 +77,13 @@ footer {
 
 .footer-logo {
   color: #b67b2fea;
-  margin-left: 70px;
-  font-size: 5vh;
+  margin-right: 70px;
+  font-size: 2vh;
 }
 
 .follow {
   color: #fff;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .follow a i {
@@ -89,4 +91,119 @@ footer {
   color: #fff;
   margin-bottom: 70px;
   justify-items: right;
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+/*----- Media query start ------*/
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .address {
+    color: #fff;
+    font-size: 12pt;
+    margin-right: 40px;
+  }
+
+  .location {
+    opacity: 0.5;
+  }
+
+  .footer-logo {
+    width: 10%;
+    margin: 5px 0;
+    color: #b67b2fea;
+    margin-right: 80px;
+    font-size: 1vh;
+  }
+
+  .follow {
+    color: #fff;
+    margin-right: 120px;
+  }
+
+  .follow a i {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 70px;
+    justify-items: right;
+  }
+}
+
+@media (max-width: 650px) {
+  footer {
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .address {
+    color: #fff;
+    font-size: 12pt;
+    margin-right: 60px;
+  }
+
+  .location {
+    opacity: 0.5;
+  }
+
+  .footer-logo {
+    width: 10%;
+    margin: 5px 0;
+    color: #b67b2fea;
+    margin-right: 130px;
+    size: 10px;
+  }
+
+  .follow {
+    color: #fff;
+    margin-right: 50px;
+  }
+
+  .follow a i {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 70px;
+    justify-items: right;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .address {
+    color: #fff;
+    font-size: 12pt;
+    margin-right: 60px;
+  }
+
+  .location {
+    opacity: 0.5;
+  }
+
+  .footer-logo {
+    width: 10%;
+    margin: 5px 0;
+    color: #b67b2fea;
+    margin-right: 130px;
+    size: 10px;
+  }
+
+  .follow {
+    color: #fff;
+    margin-right: 50px;
+  }
+
+  .follow a i {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 70px;
+    justify-items: right;
+  }
 }
